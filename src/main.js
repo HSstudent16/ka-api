@@ -91,7 +91,7 @@ function handleResponse (response) {
     failed: false,
     body: response.body,
     sender: response.url
-  });
+  }));
 }
 
 function handleError (response) {
